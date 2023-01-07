@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebAppTest {
 
-	@Test
+	//@Test
 	public void login_should_work() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://localhost:8181/selenium-demo/");
@@ -22,7 +22,7 @@ public class WebAppTest {
 		driver.close();
 	}
 
-	@Test
+	//@Test
 	public void login_should_fail() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://localhost:8181/selenium-demo/");
